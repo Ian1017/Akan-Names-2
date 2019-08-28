@@ -33,3 +33,18 @@ margin-right: 16%;
   background-color: black;
   color: white;
 }
+.card-deck{
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+.card{
+  background: black;
+  border-radius: 25%;
+}
+footer{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
