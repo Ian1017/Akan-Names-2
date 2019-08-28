@@ -12,8 +12,20 @@ function validate() {
      document.myForm.century.focus() ;
      return false;
   }
-  else if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
+   else if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
       alert( "Please provide a valid year of birth! eg 2019" );
       document.myForm.year.focus() ;
       return false;
    }
+   else if( document.myForm.month.value == "" || isNaN( document.myForm.month.value ) ||
+document.myForm.month.value.length != 2 || document.myForm.month.value > 12  || document.myForm.month.value <= 0){
+   alert( "Please provide your month of birth! between 1 and 12" );
+   document.myForm.month.focus() ;
+   return false;
+}
+   else if( document.myForm.date.value == "" || isNaN( document.myForm.month.value ) ||
+ document.myForm.month.value.length != 2|| document.myForm.date.value > 31 || document.myForm.date.value <= 0) {
+    alert( "Please provide a valid date that you were born in!" );
+    document.myForm.day.focus() ;
+    return false;
+ }
