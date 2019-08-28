@@ -1,4 +1,4 @@
-# IP3
+# IP2
 # Akan Name Generator
 
 ##Description
