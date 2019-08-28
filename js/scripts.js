@@ -12,3 +12,8 @@ function validate() {
      document.myForm.century.focus() ;
      return false;
   }
+  else if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
+      alert( "Please provide a valid year of birth! eg 2019" );
+      document.myForm.year.focus() ;
+      return false;
+   }
