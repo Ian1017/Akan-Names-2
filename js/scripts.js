@@ -110,3 +110,8 @@ switch(gender){
        default:
 
      }
+   }
+function findName(){
+dayValue = calculateDayValue();
+getGender();
+}
