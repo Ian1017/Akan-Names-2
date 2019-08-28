@@ -1,5 +1,5 @@
 body{
-  background-image: : url("./image/muivo.jpg")
+  background-image: url("https://unsplash.com/photos/kEgJVDkQkbU");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,5 +11,14 @@ body{
   font-family: 'Lacquer', sans-serif;
   font-size: 35px;
 
+
+}
+.overlay{
+  background-color: rgb(0,0,0,0.5);
+margin-left: 25%;
+margin-right: 16%;
+  opacity: 0.9;
+  border-radius: 10px;
+  color: white;
 
 }
