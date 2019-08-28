@@ -22,3 +22,14 @@ margin-right: 16%;
   color: white;
 
 }
+.h{
+  font-family: 'Lacquer', sans-serif;
+  color: blue
+}
+.head img{
+  float:right;
+}
+.style{
+  background-color: black;
+  color: white;
+}
